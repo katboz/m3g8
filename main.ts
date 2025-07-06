@@ -91,3 +91,21 @@ if (people[0].knowsHowToProgram && people[3].knowsHowToProgram) {
 }
 // console should say LMGTFY as they dont know how to program. 
 
+//Statement that checks the 2nd person in the array for their nationality. If the person’s country is Iceland, output “Hæ”, if he/she is from Spain output “Hola”, if he/she is from Korea output “여보세요”). If the country is none of the above, output “Hello”. Tip: a switch statement might be a good fit for this task.
+console.log("4. Greeting:");
+switch (people[1].country) {
+  case "Iceland":
+    console.log("Hæ");
+    break;
+  case "Spain":
+    console.log("Hola");
+    break;
+  case "Korea":
+    console.log("여보세요");
+    break;
+  default:
+    console.log("Hello");
+}
+// I decided to try to use a switch statement to check the 2nd person's nationality.
+//I used the "default" in case the nationality.
+//The console logs "Hello" since the person is not from Spain, Iceland nor Korea. 
