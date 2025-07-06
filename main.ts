@@ -60,4 +60,13 @@ const people: Person[] = [
   },
 ]
 
+//Is the first person in the array older than the last person?
+// I will take first person from the array - people[0] is the first person, people[0].dateOfBirth gives the date of birth, calculateAge will give me the age and I will store it.
+//const lastAge will give me age of last person. people[people.length - 1] is the last person. Again I will calculate age and save the result.
+// and in console I will check if firstAge is greater than lastAge
+
+
+const firstAge: number = calculateAge(people[0].dateOfBirth);
+const lastAge: number = calculateAge(people[people.length - 1].dateOfBirth);
+console.log("1. First person older than last?", firstAge > lastAge);
 
