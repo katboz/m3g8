@@ -109,3 +109,9 @@ switch (people[1].country) {
 // I decided to try to use a switch statement to check the 2nd person's nationality.
 //I used the "default" in case the nationality.
 //The console logs "Hello" since the person is not from Spain, Iceland nor Korea. 
+
+// 5. Is 2nd person's name longer than 5 characters?
+//Here I used a ternary operator to output if the 2nd person’s name is longer than 5 characters.
+//The console should show that the name is longer than 5 characters as the name is Jemima.
+const nameLength: string = people[1].fullName.length > 5 ? "Yes" : "No";
+console.log("5. Is the 2nd person's name longer than 5 characters?", nameLength);
