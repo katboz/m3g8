@@ -83,3 +83,11 @@ if (people[1].children === people[2].children) {
 console.log("2. Does the 2nd person have the same amount of kids as the 3rd?", people[1].children === people[2].children);
 
 
+// 3. Do 1st and 4th person both know how to program?
+if (people[0].knowsHowToProgram && people[3].knowsHowToProgram) {
+  console.log("3. Yay!");
+} else {
+  console.log("3. LMGTFY");
+}
+// console should say LMGTFY as they dont know how to program. 
+

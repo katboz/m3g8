@@ -60,4 +60,13 @@ if (people[1].children === people[2].children) {
 } else {
   console.log("No, they do not have the same amount of kids.");
 } */
+//the code above is not working, not sure why, because for me logic is correct
+//Because code above is not working I use simle solution than tells me if the second question is true or false. 
 console.log("2. Does the 2nd person have the same amount of kids as the 3rd?", people[1].children === people[2].children);
+// 3. Do 1st and 4th person both know how to program?
+if (people[0].knowsHowToProgram && people[3].knowsHowToProgram) {
+    console.log("3. Yay!");
+}
+else {
+    console.log("3. LMGTFY");
+}
