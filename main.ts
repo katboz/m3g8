@@ -70,3 +70,12 @@ const firstAge: number = calculateAge(people[0].dateOfBirth);
 const lastAge: number = calculateAge(people[people.length - 1].dateOfBirth);
 console.log("1. First person older than last?", firstAge > lastAge);
 
+//Does the 2nd person have the same amount of kids as the 3rd?
+/*console.log("2. Does the 2nd person have the same amount of kids as the 3rd?");
+if (people[1].children === people[2].children) {
+  console.log("Yes, they have the same amount of kids.");
+} else {
+  console.log("No, they do not have the same amount of kids.");
+} */
+
+console.log("2. Does the 2nd person have the same amount of kids as the 3rd?", people[1].children === people[2].children);
